@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daftar - Akademika</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+<header><div class="brand"><svg viewBox="0 0 36 36"><rect x="1" y="1" width="34" height="34" fill="none" stroke="#222"/><line x1="1" y1="1" x2="35" y2="35" stroke="#222"/><line x1="35" y1="1" x2="1" y2="35" stroke="#222"/></svg> Akademika</div><nav><a href="index.html">Beranda</a><a href="login.html">Login</a><a href="daftar.html" class="active">Daftar</a></nav></header>
+<main>
+<h2>Daftar</h2>
+<form class="daftar" onsubmit="location.href='login.html'; return false;">
+<div class="row"><label class="l" for="u">Username</label><input type="text" id="u" value="Ratuhanifah_45"></div>
+<div class="row"><label class="l" for="p">Password</label><input type="password" id="p" value="RatuHanifah456"></div>
+<div class="row"><label class="l" for="p2">Ulangi Password</label><input type="password" id="p2" value="RatuHanifah456"></div>
+<div class="row"><label class="l" for="n">Nama Lengkap</label><input type="text" id="n" value="Ratu Hanifah Atwan"></div>
+<div class="row"><label class="l" for="e">Email</label><input type="email" id="e" value="ratuhanifaah@gmail.com"></div>
+<div class="row"><label class="l" for="a">Alamat</label><textarea id="a">Kp.baturambang</textarea></div>
+<div class="row"><label class="l" for="t">Nomor Telepon</label><input type="tel" id="t" value="085770765313"></div>
+<div class="row"><label class="l">Jenis Kelamin</label><span><label class="opt"><input type="radio" name="jk" value="Laki-laki"> Laki-laki</label><label class="opt"><input type="radio" name="jk" value="Perempuan" checked> Perempuan</label></span></div>
+<div class="row"><label class="l" for="j">Jurusan</label><select id="j"><option>Pilih Jurusan</option><option selected>Manajemen Informatika</option><option>Teknik Informatika</option><option>Sistem Informasi</option></select></div>
+<div class="row"><label class="l" for="f">Foto Profil</label><input type="file" id="f" accept="image/*"></div>
+<div class="actions">
+<button class="btn" type="submit">Daftar</button>
+<button class="btn" type="button" onclick="location.href='index.html'">Kembali</button>
+</div>
+</form>
+</main>
+<footer><span>© 2026 Ratu Hanifah Atwan – 2557401020 · Kelas MI 25</span><span><a href="https://www.instagram.com/" target="_blank">Instagram</a><a href="mailto:ratuhanifaah@gmail.com">Email</a></span></footer>
+</div>
+</body>
+</html>
